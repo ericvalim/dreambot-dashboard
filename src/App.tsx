@@ -4,7 +4,7 @@ import Bots from './pages/Bots'
 import Vendas from './pages/Vendas'
 import Clientes from './pages/Clientes'
 import Ranking from './pages/Ranking'
-import Navbar from './components/Navbar'
+import Navbar from './components/ui/Navbar'
 
 const App = () => {
   return (

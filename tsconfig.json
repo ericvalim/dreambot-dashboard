@@ -9,14 +9,11 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"]
-    }
+    },
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
   },
   "include": ["src"],
-  "references": [{ "path": "./tsconfig.node.json" }]
-}
-{
-  "compilerOptions": {
-    "skipLibCheck": true,
-    "strict": false
-  }
+  "exclude": ["node_modules"]
 }
