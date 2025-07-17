@@ -1,16 +1,12 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Dashboard from './pages/dashboard'
-import './index.css'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
+import App from './App'; // <-- IMPORTANTE: precisa ser default import
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Dashboard />} />
-        {/* futuras rotas */}
-      </Routes>
+      <App />
     </BrowserRouter>
-  </React.StrictMode>
-)
+  </React.StrictMode>,
+);

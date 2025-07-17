@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input"
 import { Table, TableHeader, TableRow, TableHead, TableBody, TableCell } from "@/components/ui/table"
 import { BarChart } from "lucide-react"
 
-export default function Dashboard() {
+export default function dashboard() {
   return (
     <div className="min-h-screen bg-black text-white p-6">
       <h1 className="text-3xl font-bold mb-6">DreamBot Dashboard</h1>
