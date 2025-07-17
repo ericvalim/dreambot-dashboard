@@ -1,3 +1,4 @@
+// src/pages/Vendas.tsx
 const Vendas = () => {
   return (
     <div className="p-6">
